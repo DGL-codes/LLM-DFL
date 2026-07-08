@@ -1,0 +1,44 @@
+{
+  "label_names": [
+    "Society & Culture",
+    "Science & Mathematics",
+    "Health",
+    "Education & Reference",
+    "Computers & Internet",
+    "Sports",
+    "Business & Finance",
+    "Entertainment & Music",
+    "Family & Relationships",
+    "Politics & Government"
+  ],
+  "num_classes": 10,
+  "train_size": 11000,
+  "test_size": 7500,
+  "train_scale": 0.007857142857142858,
+  "test_scale": 0.125,
+  "train_per_class": {
+    "8": 1100,
+    "6": 1100,
+    "5": 1100,
+    "1": 1100,
+    "3": 1100,
+    "0": 1100,
+    "4": 1100,
+    "7": 1100,
+    "2": 1100,
+    "9": 1100
+  },
+  "test_per_class": {
+    "6": 750,
+    "4": 750,
+    "2": 750,
+    "9": 750,
+    "3": 750,
+    "5": 750,
+    "0": 750,
+    "1": 750,
+    "7": 750,
+    "8": 750
+  },
+  "seed": 42
+}

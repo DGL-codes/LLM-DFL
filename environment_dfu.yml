@@ -1,0 +1,26 @@
+name: dfu
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  # GPU: adjust to your driver/CUDA; remove `pytorch-cuda` for CPU-only.
+  - pytorch
+  - pytorch-cuda=11.8
+  - pip:
+      - transformers>=4.36,<5.0
+      - peft>=0.7,<1.0
+      - datasets>=2.16
+      - accelerate>=0.25
+      - sentencepiece>=0.1.99
+      - safetensors>=0.4.0
+      - huggingface-hub>=0.19
+      - rouge-score>=0.1.2

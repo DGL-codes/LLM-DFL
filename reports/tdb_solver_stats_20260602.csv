@@ -1,0 +1,17 @@
+dataset,method,setting,n,solver_success_rate,solve_time_sec,trajectory_l1,label_l1,target_exposure
+20newsgroups,d-federaser,AS,27,1.0,0.146±0.091,0.641±0.607,0.275±0.234,0.129±0.068
+20newsgroups,d-federaser,DSU,270,1.0,0.145±0.090,0.641±0.607,0.275±0.234,0.129±0.068
+20newsgroups,d-fedosd,AS,27,1.0,0.152±0.099,0.641±0.607,0.275±0.234,0.129±0.068
+20newsgroups,d-fedosd,DSU,270,1.0,0.146±0.090,0.641±0.607,0.275±0.234,0.129±0.068
+20newsgroups,d-fedrecovery,AS,27,1.0,0.148±0.091,0.641±0.607,0.275±0.234,0.129±0.068
+20newsgroups,d-fedrecovery,DSU,270,1.0,0.146±0.090,0.641±0.607,0.275±0.234,0.129±0.068
+20newsgroups,d-oblivionis,AS,27,1.0,0.146±0.090,0.641±0.607,0.275±0.234,0.129±0.068
+20newsgroups,d-oblivionis,DSU,270,1.0,0.146±0.091,0.641±0.607,0.275±0.234,0.129±0.068
+yahoo_subset,d-federaser,AS,27,1.0,0.131±0.073,0.663±0.647,0.210±0.189,0.087±0.034
+yahoo_subset,d-federaser,DSU,270,1.0,0.132±0.075,0.663±0.647,0.210±0.189,0.087±0.034
+yahoo_subset,d-fedosd,AS,27,1.0,0.131±0.074,0.663±0.647,0.210±0.189,0.087±0.034
+yahoo_subset,d-fedosd,DSU,270,1.0,0.131±0.075,0.663±0.647,0.210±0.189,0.087±0.034
+yahoo_subset,d-fedrecovery,AS,27,1.0,0.130±0.073,0.663±0.647,0.210±0.189,0.087±0.034
+yahoo_subset,d-fedrecovery,DSU,270,1.0,0.130±0.074,0.663±0.647,0.210±0.189,0.087±0.034
+yahoo_subset,d-oblivionis,AS,27,1.0,0.132±0.074,0.663±0.647,0.210±0.189,0.087±0.034
+yahoo_subset,d-oblivionis,DSU,270,1.0,0.130±0.074,0.663±0.647,0.210±0.189,0.087±0.034

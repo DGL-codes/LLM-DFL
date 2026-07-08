@@ -1,0 +1,21 @@
+# Core runtime (install PyTorch separately; see README/notes)
+transformers>=4.36,<5.0
+peft>=0.7,<1.0
+datasets>=2.16
+accelerate>=0.25
+
+# Data / math
+numpy>=1.23
+scipy>=1.10
+scikit-learn>=1.2
+
+# Analysis / plotting
+pandas>=1.5
+matplotlib>=3.7
+tqdm>=4.65
+
+# Misc
+sentencepiece>=0.1.99
+safetensors>=0.4.0
+huggingface-hub>=0.19
+rouge-score>=0.1.2
