@@ -19,6 +19,7 @@
 # 允许根目录必要文件
 !.gitignore
 !README.md
+!REPRODUCE.md
 !requirements_dfu.txt
 !environment_dfu.yml
 
